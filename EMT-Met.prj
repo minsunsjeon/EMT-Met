@@ -1,19 +1,19 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="/Users/staceyjeon/Desktop/R packages/EMT-Met.prj" location="/Users/staceyjeon/Desktop/R packages" name="EMT-Met" target="target.toolbox" target-name="Package Toolbox">
+  <configuration file="/Users/staceyjeon/Desktop/R packages/EMT-Met Package/EMT-Met.prj" location="/Users/staceyjeon/Desktop/R packages/EMT-Met Package" name="EMT-Met" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>EMT-Met</param.appname>
-    <param.authnamewatermark>Stacey Jeon</param.authnamewatermark>
+    <param.authnamewatermark>Minsun S. Jeon, Jing Li</param.authnamewatermark>
     <param.email>minsunjeon@tamu.edu</param.email>
-    <param.company>Texas A&amp;M University</param.company>
-    <param.summary />
-    <param.description />
-    <param.screenshot />
+    <param.company />
+    <param.summary>Calculating the EMT score based on methylation levels</param.summary>
+    <param.description>The EMT-Met Toolbox is a MATLAB package designed for analyzing the spectrum of Epithelial-Mesenchymal Transition (EMT) in biological samples. This toolbox provides computational tools to quantify EMT dynamics using methylation data, enabling researchers to assess epigenetic changes associated with EMT states. The algorithm uses reference Epithelial (E) and Mesenchymal (M) genes, which can be customized by users according to their specific research needs or existing reference gene lists. This flexibility allows for tailored analyses across diverse biological contexts and experimental setups.</param.description>
+    <param.screenshot>/Users/staceyjeon/Downloads/Untitled (12).png</param.screenshot>
     <param.version>1.0</param.version>
     <param.output>${PROJECT_ROOT}/EMT-Met.mltbx</param.output>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.guid>5f4f5d44-78f5-4a05-9f41-97361dc5fb27</param.guid>
+    <param.guid>55869078-f484-46c0-9a33-f936fd9fdf49</param.guid>
     <param.exclude.filters />
     <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
     <param.examples />
@@ -42,9 +42,7 @@
     <param.additional.sw.mac.url />
     <param.additional.sw.linux.url />
     <unset>
-      <param.summary />
-      <param.description />
-      <param.screenshot />
+      <param.company />
       <param.version />
       <param.output />
       <param.products.name />
@@ -80,19 +78,18 @@
       <param.additional.sw.linux.url />
     </unset>
     <fileset.rootdir>
-      <file>${PROJECT_ROOT}/EMT-Met</file>
+      <file>${PROJECT_ROOT}/EMT Met Codes</file>
     </fileset.rootdir>
     <fileset.rootfiles>
-      <file>${PROJECT_ROOT}/EMT-Met/demo.m</file>
-      <file>${PROJECT_ROOT}/EMT-Met/getEMT.m</file>
+      <file>${PROJECT_ROOT}/EMT Met Codes/.DS_Store</file>
+      <file>${PROJECT_ROOT}/EMT Met Codes/demo.m</file>
+      <file>${PROJECT_ROOT}/EMT Met Codes/getEMT.m</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
-    <fileset.depfun.excluded>
-      <file>/Users/staceyjeon/Desktop/Research/cfBS_BRC_80samples/EMT/genelist.csv</file>
-    </fileset.depfun.excluded>
+    <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="EMT-Met.mltbx" optional="false">/Users/staceyjeon/Desktop/R packages/EMT-Met.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="EMT-Met.mltbx" optional="false">/Users/staceyjeon/Desktop/R packages/EMT-Met Package/EMT-Met.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
